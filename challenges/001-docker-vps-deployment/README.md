@@ -1,6 +1,6 @@
 # Challenge 001: Docker & VPS Deployment
 
-> This challenge was originally run in partnership with Hostinger, who sponsored a discount for participants' VPS plans. The steps below are written to work with any VPS provider.
+> The steps below are written to work with any VPS provider.
 
 ## Overview
 
