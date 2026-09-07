@@ -1,6 +1,6 @@
 # WebDev Challenges
 
-A collection of coding and technical challenges run in the WebDev community. Each challenge is documented here as a standalone markdown file, covering the task, goals, and any resources needed to get started.
+A collection of coding and technical challenges run in the Web Dev & Design community. Each challenge is documented here as a standalone markdown file, covering the task, goals, and any resources needed to get started.
 
 ## How it works
 
