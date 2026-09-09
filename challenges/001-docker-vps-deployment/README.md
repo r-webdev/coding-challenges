@@ -1,71 +1,51 @@
-# Challenge 001: Docker & VPS Deployment
+# Challenge: Dockerize & Deploy Any Website!
 
-> The steps below are written to work with any VPS provider.
+Welcome to the **"Dockerize & Deploy Any Website"** challenge. This is your opportunity to gain practical, real-world deployment skills by containerizing and deploying your own web application.
 
-## Overview
+## 🚀 The Challenge Goal
+Our mission for the next two weeks is to learn to containerize any web application using Docker and deploy it to a Virtual Private Server (VPS).
 
-Learn to containerize any web application with Docker and deploy it to a live, internet accessible server, complete with a reverse proxy and HTTPS. This challenge walks through the full deployment pipeline, from local development to a secured, production style setup.
+This challenge covers the full deployment pipeline, from local development to a live, secure website.
 
-## The Challenge Goal
+## 💡 What You Will Learn
+By the end of these two weeks, you'll be able to:
 
-Containerize any web application you've built (or want to build) using Docker, and deploy it successfully to a Virtual Private Server (VPS).
+- **Containerize applications with Docker:** Write a Dockerfile to package your app and its dependencies.
+- **Manage a Virtual Private Server (VPS):** Use remote server access and basic Linux commands.
+- **Deploy applications to the cloud:** Move your code from your machine to a live server.
+- **Set up a web server as a reverse proxy:** Serve your Dockerized app to the internet.
+- **Secure your website with SSL (HTTPS):** Obtain and configure free SSL certificates.
 
-## What You Will Learn
+## ⏳ Submission Deadline: You Have 2 Weeks!
+You have until Saturday, 2 August 2025 00:45 to work on your project and submit your final deployment. Start early, use the available resources, and ask for support in the project's support channels.
 
-By the end of this challenge, you'll be able to:
+Submission form: https://dyno.gg/form/d813f991
 
-- Containerize applications with Docker, including writing a Dockerfile that packages an app and its dependencies.
-- Manage a VPS, including remote access and basic Linux server administration.
-- Deploy an application from a local machine to a live server.
-- Configure a reverse proxy to serve a Dockerized app to the internet.
-- Secure a website with a free SSL certificate (HTTPS).
+## 🎉 How to 'Win' & Get Rewarded
+This challenge is about learning. Every participant who completes the challenge is a winner.
 
-## Milestones
+To be entered into the prize raffle, you need to:
 
-### Milestone 1: Containerize Your Application
+1. Deploy a working Dockerized web application on a VPS.
+2. Submit your Proof of Learning via the form above. Your submission must include:
+- Your live website URL.
+- Screenshots of your running Docker processes (`docker ps`), your web server configuration, and your deployment on the VPS.
+- A link to your code repository (including your Dockerfile).
+- A brief reflection on your learning, challenges, and your Docker setup.
+- Your Discord username (not display name).
 
-- Choose a web application to deploy. It can be a static site, a Node.js backend, a Python Flask app, or anything already running locally.
-- Research Dockerfile best practices for your app's language or framework.
-- Write a Dockerfile describing how to build your application's image.
-- Build the image locally with `docker build`.
-- Run and verify the container locally with `docker run`, confirming the app works as expected inside the container.
+## 🏆 The Grand Prize
+All eligible submissions will be entered into a raffle. Three winners will receive 1 month of Discord Nitro.
 
-### Milestone 2: Prepare Your VPS
+## 🤝 Support
+We're here to help you:
 
-- Provision a VPS from a hosting provider of your choice.
-- Set up SSH access and configure key based authentication instead of password login.
-- Perform basic server hardening: update the system, create a non root sudo user, and disable direct root login.
-- Configure a firewall (e.g. UFW) to allow only necessary traffic.
-- Install Docker Engine on the VPS.
+- `archived-challenge-guides` contains tutorials and resources for the challenge.
+- Use the community support channels to ask questions, share progress, and troubleshoot issues.
 
-### Milestone 3: Deploy and Run on the VPS
+## Good luck, and happy deploying!
 
-- Transfer your Dockerfile and application code to the VPS (e.g. via `scp` or `git clone`).
-- Build the Docker image on the server and run it as a container.
-- Configure the container to restart automatically on failure or server reboot.
-- Verify the container is running correctly using `docker ps` and `docker logs`.
+## Winners (challenge complete)
+The challenge has concluded and winners were selected.
 
-### Milestone 4: Make It Public and Secure
-
-- Install a reverse proxy (e.g. Nginx or Caddy) on the VPS.
-- Configure the reverse proxy to forward incoming traffic on port 80 to your container's mapped port.
-- Update the firewall to allow HTTP (80) and HTTPS (443) traffic.
-- Optional: point a custom domain at your VPS using a DNS A record.
-- Secure the site with a free SSL certificate (e.g. via Let's Encrypt / Certbot).
-
-## What Counts as a Valid Submission
-
-Any project, existing or new, deployed and reachable through your VPS. This can be a static site, a full stack app, a bot with a web dashboard, or anything else with a network facing component.
-
-## Suggested Learning Areas
-
-- Basic Linux server administration
-- SSH key based authentication
-- Firewall configuration
-- Reverse proxies
-- Docker container lifecycle and restart policies
-- DNS configuration and SSL certificates
-
-## Sharing Your Work
-
-Post your live URL, a short reflection on what you learned, and any issues you ran into in the community. Screenshots of your running container, reverse proxy config, or deployment process are welcome.
+Keep building and stay tuned for future events.
